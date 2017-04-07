@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab&subset=cyrillic,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,300i,400,400i,500,500i,600,600i&subset=cyrillic');
+
+.container {
+  .startContent {
+    display: flex;
+    justify-content: center;
+    figure {
+      margin: 40px 40px 15px 40px;
+      width: 800px;
+      text-align: center;
+
+      img {
+        box-sizing: border-box;
+      }
+      img:hover {
+        outline: 1px solid rgb(0, 133, 215);
+        box-shadow: 0 1px 8px 5px rgba(0, 134, 219, 0.1), 0 4px 12px 5px rgba(0, 134, 219, 0.2);
+        cursor: url("img/cursor/zoom_in_32x32.png"), pointer;
+      }
+      figcaption {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 30pt;
+        font-family: 'Exo 2', sans-serif;
+        font-style: italic;
+      }
+    }
+  }
+}
+
+@media (max-width: 1195px) {
+  .container {
+    .startContent {
+      figure {
+        img {
+          width: 300px;
+        }
+        figcaption {
+          font-size: 18pt;
+        }
+      }
+    }
+  }
+
+}

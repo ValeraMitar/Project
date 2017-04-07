@@ -1,0 +1,1077 @@
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab&subset=cyrillic,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,300i,400,400i,500,500i,600,600i&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&subset=cyrillic,latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Jura:300,400,500,600&subset=cyrillic,cyrillic-ext,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab&subset=cyrillic,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,300i,400,400i,500,500i,600,600i&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab&subset=cyrillic,latin-ext');
+.container .startContent {
+  display: flex;
+  justify-content: center;
+}
+.container .startContent figure {
+  margin: 40px 40px 15px 40px;
+  width: 800px;
+  text-align: center;
+}
+.container .startContent figure img {
+  box-sizing: border-box;
+}
+.container .startContent figure img:hover {
+  outline: 1px solid #0085d7;
+  box-shadow: 0 1px 8px 5px rgba(0, 134, 219, 0.1), 0 4px 12px 5px rgba(0, 134, 219, 0.2);
+  cursor: url("img/cursor/zoom_in_32x32.png"), pointer;
+}
+.container .startContent figure figcaption {
+  color: #ffffff;
+  text-align: center;
+  font-size: 30pt;
+  font-family: 'Exo 2', sans-serif;
+  font-style: italic;
+}
+@media (max-width: 1195px) {
+  .container .startContent figure img {
+    width: 300px;
+  }
+  .container .startContent figure figcaption {
+    font-size: 18pt;
+  }
+}
+.container {
+  padding-top: calc(104px);
+}
+.container .first_date,
+.container .second_date,
+.container .third_date,
+.container .four_date,
+.container .fifth_date {
+  display: flex;
+  flex-direction: row;
+}
+.container .first_date .text_content,
+.container .second_date .text_content,
+.container .third_date .text_content,
+.container .four_date .text_content,
+.container .fifth_date .text_content {
+  padding: calc(24px) 0 calc(24px) 25px;
+  font-family: "Oswald", serif;
+  font-size: 20pt;
+  font-weight: 500;
+  color: rgba(183, 183, 183, 0.73);
+  text-align: justify;
+  text-shadow: 1px 1px 0.5px #d4d4d4;
+  line-height: 35pt;
+}
+.container .first_date .text_content .date,
+.container .second_date .text_content .date,
+.container .third_date .text_content .date,
+.container .four_date .text_content .date,
+.container .fifth_date .text_content .date {
+  color: #fff;
+  display: inline;
+  margin: 0 0 0 -240px;
+}
+.container .first_date .text_content h1,
+.container .second_date .text_content h1,
+.container .third_date .text_content h1,
+.container .four_date .text_content h1,
+.container .fifth_date .text_content h1 {
+  margin: calc(56px);
+  color: #000;
+  text-shadow: 1px 1px 8px #9e7f2d;
+}
+.container .first_date .text_content figure,
+.container .second_date .text_content figure,
+.container .third_date .text_content figure,
+.container .four_date .text_content figure,
+.container .fifth_date .text_content figure {
+  margin: 40px 40px 15px 40px;
+  width: 300px;
+  float: right;
+  text-align: center;
+}
+.container .first_date .text_content figure img,
+.container .second_date .text_content figure img,
+.container .third_date .text_content figure img,
+.container .four_date .text_content figure img,
+.container .fifth_date .text_content figure img {
+  box-sizing: border-box;
+}
+.container .first_date .text_content figure img:hover,
+.container .second_date .text_content figure img:hover,
+.container .third_date .text_content figure img:hover,
+.container .four_date .text_content figure img:hover,
+.container .fifth_date .text_content figure img:hover {
+  outline: 1px solid #0085d7;
+  box-shadow: 0 1px 8px 5px rgba(0, 134, 219, 0.1), 0 4px 12px 5px rgba(0, 134, 219, 0.2);
+  cursor: url("img/cursor/zoom_in_32x32.png"), pointer;
+}
+.container .first_date .text_content figure figcaption,
+.container .second_date .text_content figure figcaption,
+.container .third_date .text_content figure figcaption,
+.container .four_date .text_content figure figcaption,
+.container .fifth_date .text_content figure figcaption {
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  font-family: serif;
+}
+.container .first_date .text_content div,
+.container .second_date .text_content div,
+.container .third_date .text_content div,
+.container .four_date .text_content div,
+.container .fifth_date .text_content div {
+  margin: 25px 0 25px 0;
+}
+.container .first_date .text_content div figure:nth-child(2n),
+.container .second_date .text_content div figure:nth-child(2n),
+.container .third_date .text_content div figure:nth-child(2n),
+.container .four_date .text_content div figure:nth-child(2n),
+.container .fifth_date .text_content div figure:nth-child(2n) {
+  float: left;
+}
+.container .first_date .text_content div p,
+.container .second_date .text_content div p,
+.container .third_date .text_content div p,
+.container .four_date .text_content div p,
+.container .fifth_date .text_content div p {
+  text-indent: 60pt;
+  margin: 10px;
+}
+.container .first_date .text_content .lastPhoto,
+.container .second_date .text_content .lastPhoto,
+.container .third_date .text_content .lastPhoto,
+.container .four_date .text_content .lastPhoto,
+.container .fifth_date .text_content .lastPhoto {
+  margin: auto;
+  width: 1000px;
+  float: none;
+}
+.container .first_date nav,
+.container .second_date nav,
+.container .third_date nav,
+.container .four_date nav,
+.container .fifth_date nav {
+  display: flex;
+  flex-direction: column;
+}
+.container .first_date nav .icon,
+.container .second_date nav .icon,
+.container .third_date nav .icon,
+.container .four_date nav .icon,
+.container .fifth_date nav .icon {
+  display: flex;
+  flex-shrink: 0;
+  flex-grow: 0;
+  height: calc(72px);
+  width: calc(72px);
+}
+.container .first_date nav .icon div,
+.container .second_date nav .icon div,
+.container .third_date nav .icon div,
+.container .four_date nav .icon div,
+.container .fifth_date nav .icon div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.container .first_date nav .icon div img,
+.container .second_date nav .icon div img,
+.container .third_date nav .icon div img,
+.container .four_date nav .icon div img,
+.container .fifth_date nav .icon div img {
+  border-radius: calc(70px);
+}
+.container .first_date nav .icon div img:hover,
+.container .second_date nav .icon div img:hover,
+.container .third_date nav .icon div img:hover,
+.container .four_date nav .icon div img:hover,
+.container .fifth_date nav .icon div img:hover {
+  border: solid 1px rgba(201, 0, 0, 0.58);
+  box-shadow: 0 0 15px rgba(0, 134, 219, 0.77);
+  cursor: url("img/cursor/zoom_in_32x32.png"), pointer;
+}
+.container .first_date nav > div:last-child,
+.container .second_date nav > div:last-child,
+.container .third_date nav > div:last-child,
+.container .four_date nav > div:last-child,
+.container .fifth_date nav > div:last-child {
+  width: calc(35px);
+  height: 100%;
+  margin: 10px 0 10px 0;
+  border-right: 3px solid #fff;
+}
+@media (max-width: 320px) {
+  .container .first_date .text_content,
+  .container .second_date .text_content,
+  .container .third_date .text_content,
+  .container .four_date .text_content,
+  .container .fifth_date .text_content {
+    font-size: 16pt;
+    line-height: 20pt;
+    padding-left: 5px;
+  }
+  .container .first_date .text_content div,
+  .container .second_date .text_content div,
+  .container .third_date .text_content div,
+  .container .four_date .text_content div,
+  .container .fifth_date .text_content div {
+    width: 243px;
+  }
+  .container .first_date .text_content div figure,
+  .container .second_date .text_content div figure,
+  .container .third_date .text_content div figure,
+  .container .four_date .text_content div figure,
+  .container .fifth_date .text_content div figure {
+    float: none;
+  }
+  .container .first_date .text_content figure,
+  .container .second_date .text_content figure,
+  .container .third_date .text_content figure,
+  .container .four_date .text_content figure,
+  .container .fifth_date .text_content figure {
+    float: none;
+    margin-right: 0;
+    margin-left: 0;
+    width: calc(200px);
+  }
+  .container .first_date .text_content figure img,
+  .container .second_date .text_content figure img,
+  .container .third_date .text_content figure img,
+  .container .four_date .text_content figure img,
+  .container .fifth_date .text_content figure img {
+    width: calc(200px);
+  }
+  .container .first_date .text_content .date,
+  .container .second_date .text_content .date,
+  .container .third_date .text_content .date,
+  .container .four_date .text_content .date,
+  .container .fifth_date .text_content .date {
+    margin: 0;
+  }
+  .container .first_date .text_content .lastPhoto,
+  .container .second_date .text_content .lastPhoto,
+  .container .third_date .text_content .lastPhoto,
+  .container .four_date .text_content .lastPhoto,
+  .container .fifth_date .text_content .lastPhoto {
+    width: 100%;
+    margin: 0;
+  }
+  .container .first_date .text_content .lastPhoto img,
+  .container .second_date .text_content .lastPhoto img,
+  .container .third_date .text_content .lastPhoto img,
+  .container .four_date .text_content .lastPhoto img,
+  .container .fifth_date .text_content .lastPhoto img {
+    width: calc(200px);
+  }
+}
+.style {
+  font-family: 'Kelly Slab', cursive;
+  font-size: 30pt;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  font-style: italic;
+}
+.style_fire {
+  text-shadow: 0 0 5px #fefcc9, 5px -5px 20px #feec85, -10px -10px 30px #ffae34, 10px -20px 40px #ec760c, -10px -30px 50px #cd4606, 0px -25px 20px #973716, 9px -7px 20px #451b0e;
+}
+.container .content {
+  display: flex;
+  flex-direction: row;
+}
+.container .content .typeofFuel {
+  display: flex;
+  flex-shrink: 0;
+  align-items: flex-start;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20pt;
+}
+.container .content .typeofFuel fieldset {
+  margin: 0;
+  padding-top: 0;
+  border: none;
+  color: #ffffff;
+  line-height: 70px;
+  height: 700px;
+}
+.container .content .typeofFuel fieldset .benzineEngine,
+.container .content .typeofFuel fieldset .dieselEngine {
+  display: none;
+}
+.container .content .typeofFuel fieldset .benzineEngine .benzineEngineMenu,
+.container .content .typeofFuel fieldset .dieselEngine .benzineEngineMenu,
+.container .content .typeofFuel fieldset .benzineEngine .dieselEngineMenu,
+.container .content .typeofFuel fieldset .dieselEngine .dieselEngineMenu {
+  padding: 0;
+  list-style-type: none;
+  font-family: 'Exo 2', sans-serif;
+  font-style: italic;
+  font-size: 15pt;
+  line-height: 35px;
+  width: 350px;
+}
+.container .content .typeofFuel fieldset .benzineEngine .benzineEngineMenu li,
+.container .content .typeofFuel fieldset .dieselEngine .benzineEngineMenu li,
+.container .content .typeofFuel fieldset .benzineEngine .dieselEngineMenu li,
+.container .content .typeofFuel fieldset .dieselEngine .dieselEngineMenu li {
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+  background: linear-gradient(0deg, #a1a1a1 0%, #a1a1a1 5%, #9c9c9c 10%, #ededed 47%, #9c9c9c 90%, #a1a1a1 95%, #a1a1a1 100%);
+  border: 2px solid #a1a1a1;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  line-height: 40px;
+}
+.container .content .typeofFuel fieldset .benzineEngine .benzineEngineMenu a,
+.container .content .typeofFuel fieldset .dieselEngine .benzineEngineMenu a,
+.container .content .typeofFuel fieldset .benzineEngine .dieselEngineMenu a,
+.container .content .typeofFuel fieldset .dieselEngine .dieselEngineMenu a {
+  display: block;
+  text-decoration: none;
+  color: rgba(127, 0, 1, 0.71);
+  text-shadow: -1px 3px 8px #000;
+  border-radius: 7px;
+}
+.container .content .typeofFuel fieldset .benzineEngine .benzineEngineMenu a.active,
+.container .content .typeofFuel fieldset .dieselEngine .benzineEngineMenu a.active,
+.container .content .typeofFuel fieldset .benzineEngine .dieselEngineMenu a.active,
+.container .content .typeofFuel fieldset .dieselEngine .dieselEngineMenu a.active {
+  color: #fff;
+  box-shadow: inset 2px 1px 8px 4px #535353;
+  text-shadow: 2px 4px 5px #000;
+}
+.container .content .typeofFuel fieldset .benzineEngine .benzineEngineMenu a:hover,
+.container .content .typeofFuel fieldset .dieselEngine .benzineEngineMenu a:hover,
+.container .content .typeofFuel fieldset .benzineEngine .dieselEngineMenu a:hover,
+.container .content .typeofFuel fieldset .dieselEngine .dieselEngineMenu a:hover {
+  color: #fff;
+}
+.container .content .typeofFuel fieldset legend {
+  padding: 0;
+  font-size: 30pt;
+  font-family: 'Kelly Slab', cursive;
+  font-size: 25pt;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  font-style: italic;
+}
+.container .content .typeofFuel fieldset div .fire1:hover,
+.container .content .typeofFuel fieldset div .fire2:hover {
+  text-shadow: 0 0 5px #fefcc9, 5px -5px 20px #feec85, -10px -10px 30px #ffae34, 10px -20px 40px #ec760c, -10px -30px 50px #cd4606, 0px -25px 20px #973716, 9px -7px 20px #451b0e;
+}
+.container .content .typeofFuel fieldset div input,
+.container .content .typeofFuel fieldset div label {
+  cursor: pointer;
+}
+.container .content .mainContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: -webkit-center;
+  margin: 0 0 calc(40px) calc(40px);
+}
+.container .content .mainContent .benzine,
+.container .content .mainContent .diesel {
+  display: none;
+  padding: 45px;
+  border-radius: 55px;
+  box-shadow: 4px 7px 16px 11px #000;
+  background-image: url('img/bacgroundforTable/rjavyiy_perforirovannyiy_stalnoy_list.jpg');
+}
+.container .content .mainContent .benzine div,
+.container .content .mainContent .diesel div {
+  padding: 25px;
+  /*background: #fff;*/
+  display: none;
+  border-radius: 50px;
+  box-shadow: 9px 11px 31px 11px #000;
+  background-image: url('img/bacgroundforTable/illust.jpg');
+}
+.container .content .mainContent .benzine div table,
+.container .content .mainContent .diesel div table,
+.container .content .mainContent .benzine div td,
+.container .content .mainContent .diesel div td,
+.container .content .mainContent .benzine div th,
+.container .content .mainContent .diesel div th {
+  border: 3px solid #616161;
+  border-spacing: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 20pt;
+  line-height: 40px;
+}
+.container .content .mainContent .benzine div table caption,
+.container .content .mainContent .diesel div table caption,
+.container .content .mainContent .benzine div td caption,
+.container .content .mainContent .diesel div td caption,
+.container .content .mainContent .benzine div th caption,
+.container .content .mainContent .diesel div th caption {
+  margin: 20px;
+  color: #fff;
+  font-size: 30pt;
+  font-family: 'Kelly Slab', cursive;
+  font-size: 25pt;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  font-style: italic;
+}
+.container .content .mainContent .benzine div table thead,
+.container .content .mainContent .diesel div table thead,
+.container .content .mainContent .benzine div td thead,
+.container .content .mainContent .diesel div td thead,
+.container .content .mainContent .benzine div th thead,
+.container .content .mainContent .diesel div th thead {
+  text-shadow: -1px -1px rgba(86, 86, 86, 0.82), 1px 1px #FFF;
+  color: rgba(148, 143, 143, 0.84);
+  font-family: 'Orbitron', sans-serif;
+}
+.container .content .mainContent .benzine div table thead tr th:first-child,
+.container .content .mainContent .diesel div table thead tr th:first-child,
+.container .content .mainContent .benzine div td thead tr th:first-child,
+.container .content .mainContent .diesel div td thead tr th:first-child,
+.container .content .mainContent .benzine div th thead tr th:first-child,
+.container .content .mainContent .diesel div th thead tr th:first-child {
+  width: 25%;
+}
+.container .content .mainContent .benzine div table tbody,
+.container .content .mainContent .diesel div table tbody,
+.container .content .mainContent .benzine div td tbody,
+.container .content .mainContent .diesel div td tbody,
+.container .content .mainContent .benzine div th tbody,
+.container .content .mainContent .diesel div th tbody {
+  text-shadow: -1px -1px rgba(86, 86, 86, 0.82), 1px 1px #FFF;
+  color: rgba(148, 143, 143, 0.84);
+  font-family: 'Orbitron', sans-serif;
+}
+.container .content .mainContent .benzine div table tbody tr td,
+.container .content .mainContent .diesel div table tbody tr td,
+.container .content .mainContent .benzine div td tbody tr td,
+.container .content .mainContent .diesel div td tbody tr td,
+.container .content .mainContent .benzine div th tbody tr td,
+.container .content .mainContent .diesel div th tbody tr td {
+  margin: 0;
+  padding: 0 5px 0 5px;
+}
+.container .content .mainContent .benzine div:target,
+.container .content .mainContent .diesel div:target {
+  display: block;
+}
+.container .content .mainContent .benzine div:target ~ div,
+.container .content .mainContent .diesel div:target ~ div {
+  display: none;
+}
+.container .content .mainContent figure {
+  margin: 40px 40px 15px 40px;
+  width: 800px;
+  text-align: center;
+}
+.container .content .mainContent figure img {
+  box-sizing: border-box;
+}
+.container .content .mainContent figure img:hover {
+  outline: 1px solid #0085d7;
+  box-shadow: 0 1px 8px 5px rgba(0, 134, 219, 0.1), 0 4px 12px 5px rgba(0, 134, 219, 0.2);
+  cursor: url("img/cursor/zoom_in_32x32.png"), pointer;
+}
+.container .content .mainContent figure figcaption {
+  color: #ffffff;
+  text-align: center;
+  font-size: 30pt;
+}
+@media (max-width: 320px) {
+  .container .content {
+    flex-direction: column;
+  }
+  .container .content .mainContent {
+    margin: 0;
+  }
+  .container .content .mainContent figure {
+    margin-left: 10px;
+    width: 300px;
+  }
+  .container .content .mainContent figure img {
+    width: 300px;
+  }
+  .container .content .mainContent figure figcaption {
+    font-size: 14pt;
+  }
+  .container .content .mainContent .benzine,
+  .container .content .mainContent .diesel {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container .content .mainContent .benzine div,
+  .container .content .mainContent .diesel div {
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 25px;
+  }
+  .container .content .mainContent .benzine div table,
+  .container .content .mainContent .diesel div table,
+  .container .content .mainContent .benzine div td,
+  .container .content .mainContent .diesel div td,
+  .container .content .mainContent .benzine div th,
+  .container .content .mainContent .diesel div th {
+    font-size: 12pt;
+    line-height: 20px;
+  }
+  .container .content .mainContent .benzine div table caption,
+  .container .content .mainContent .diesel div table caption,
+  .container .content .mainContent .benzine div td caption,
+  .container .content .mainContent .diesel div td caption,
+  .container .content .mainContent .benzine div th caption,
+  .container .content .mainContent .diesel div th caption {
+    font-size: 12pt;
+  }
+  .container .content .mainContent .benzine div table thead,
+  .container .content .mainContent .diesel div table thead,
+  .container .content .mainContent .benzine div td thead,
+  .container .content .mainContent .diesel div td thead,
+  .container .content .mainContent .benzine div th thead,
+  .container .content .mainContent .diesel div th thead {
+    word-break: break-all;
+  }
+  .container .content .mainContent .benzine div table thead tr th,
+  .container .content .mainContent .diesel div table thead tr th,
+  .container .content .mainContent .benzine div td thead tr th,
+  .container .content .mainContent .diesel div td thead tr th,
+  .container .content .mainContent .benzine div th thead tr th,
+  .container .content .mainContent .diesel div th thead tr th {
+    margin: 0;
+    padding: 0;
+  }
+  .container .content .mainContent .benzine div table tbody tr td,
+  .container .content .mainContent .diesel div table tbody tr td,
+  .container .content .mainContent .benzine div td tbody tr td,
+  .container .content .mainContent .diesel div td tbody tr td,
+  .container .content .mainContent .benzine div th tbody tr td,
+  .container .content .mainContent .diesel div th tbody tr td {
+    margin: 0;
+    padding: 0;
+  }
+  .container .content .mainContent .benzine div table tbody tr td:last-child,
+  .container .content .mainContent .diesel div table tbody tr td:last-child,
+  .container .content .mainContent .benzine div td tbody tr td:last-child,
+  .container .content .mainContent .diesel div td tbody tr td:last-child,
+  .container .content .mainContent .benzine div th tbody tr td:last-child,
+  .container .content .mainContent .diesel div th tbody tr td:last-child {
+    word-break: break-all;
+  }
+  .container .content .typeofFuel fieldset {
+    height: 560px;
+    padding-right: 0;
+  }
+  .container .content .typeofFuel fieldset .benzineEngine .benzineEngineMenu,
+  .container .content .typeofFuel fieldset .dieselEngine .benzineEngineMenu,
+  .container .content .typeofFuel fieldset .benzineEngine .dieselEngineMenu,
+  .container .content .typeofFuel fieldset .dieselEngine .dieselEngineMenu {
+    font-size: 16pt;
+    width: 300px;
+  }
+  .container .content .typeofFuel fieldset .benzineEngine .benzineEngineMenu li,
+  .container .content .typeofFuel fieldset .dieselEngine .benzineEngineMenu li,
+  .container .content .typeofFuel fieldset .benzineEngine .dieselEngineMenu li,
+  .container .content .typeofFuel fieldset .dieselEngine .dieselEngineMenu li {
+    line-height: 20px;
+  }
+}
+.style {
+  font-family: 'Kelly Slab', cursive;
+  font-size: 25pt;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  font-style: italic;
+}
+.container-style {
+  margin: 25px 0 25px 0;
+  padding: 10px;
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  background-color: #242b38;
+  box-sizing: border-box;
+  border: 1px solid #1b2854;
+  border-radius: 20px;
+  box-shadow: 0 0 30px -1px #3b5773;
+}
+.container-style div div:hover {
+  outline: 1px solid #0085d7;
+  box-sizing: border-box;
+  box-shadow: 0 1px 8px 5px rgba(0, 134, 219, 0.1), 0 4px 12px 5px rgba(0, 134, 219, 0.2);
+  background-color: #b5b5b5;
+  cursor: pointer;
+}
+.container-style div div:active {
+  box-shadow: inset 0 0 50px 25px #000;
+}
+.container-style div div img {
+  padding: 10px;
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+}
+.container-style div div img:hover {
+  cursor: pointer;
+}
+.style_fire {
+  text-shadow: 0 0 5px #fefcc9, 5px -5px 20px #feec85, -10px -10px 30px #ffae34, 10px -20px 40px #ec760c, -10px -30px 50px #cd4606, 0px -25px 20px #973716, 9px -7px 20px #451b0e;
+}
+.visible {
+  display: flex;
+}
+.container .carContent {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: flex-start;
+  margin: 0;
+}
+.container .carContent .chosen {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  min-width: 1300px;
+  height: 250px;
+  border-radius: 40px;
+  box-shadow: 0 0 50px 5px #710909;
+  background-image: url('my_car/my_car/some_metal.jpg');
+}
+.container .carContent .chosen ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+.container .carContent .chosen ul li {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  text-align: justify;
+  width: 150px;
+  vertical-align: middle;
+  /*height: 100%;*/
+}
+.container .carContent .chosen ul li:nth-child(even) {
+  height: 77px;
+  width: 200px;
+  margin: 0 10px 0 10px;
+  background-color: transparent;
+  box-sizing: border-box;
+  border-top: 4px solid #dc0001;
+  vertical-align: bottom;
+}
+.container .carContent .chosen ul li:nth-child(odd)::after {
+  content: attr(data-title);
+  position: absolute;
+  width: 150%;
+  bottom: -32px;
+  left: -45px;
+  color: #fff;
+  text-align: center;
+  font-size: 30pt;
+  font-family: 'Kelly Slab', cursive;
+  font-size: 25pt;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  font-style: italic;
+}
+.container .carContent .chosen ul li img:hover {
+  cursor: pointer;
+}
+.container .carContent .chosen ul li h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 30pt;
+  font-family: 'Kelly Slab', cursive;
+  font-size: 25pt;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  font-style: italic;
+}
+.container .carContent .chosen ul .selectYear h1,
+.container .carContent .chosen ul .selectLiters h1 {
+  font-size: 45pt;
+}
+.container .carContent .car_container {
+  margin: 25px 0 25px 0;
+  padding: 10px;
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  background-color: #242b38;
+  box-sizing: border-box;
+  border: 1px solid #1b2854;
+  border-radius: 20px;
+  box-shadow: 0 0 30px -1px #3b5773;
+}
+.container .carContent .car_container div div:hover {
+  outline: 1px solid #0085d7;
+  box-sizing: border-box;
+  box-shadow: 0 1px 8px 5px rgba(0, 134, 219, 0.1), 0 4px 12px 5px rgba(0, 134, 219, 0.2);
+  background-color: #b5b5b5;
+  cursor: pointer;
+}
+.container .carContent .car_container div div:active {
+  box-shadow: inset 0 0 50px 25px #000;
+}
+.container .carContent .car_container div div img {
+  padding: 10px;
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+}
+.container .carContent .car_container div div img:hover {
+  cursor: pointer;
+}
+.container .carContent .bodies {
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container .carContent .bodies div {
+  position: relative;
+}
+.container .carContent .bodies div div::after {
+  content: attr(data-title);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 30pt;
+  font-family: 'Kelly Slab', cursive;
+  font-size: 25pt;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  font-style: italic;
+}
+.container .carContent .visible {
+  display: flex;
+}
+.container .carContent .years {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  font-size: 30pt;
+  color: #fff;
+}
+.container .carContent .years select {
+  order: 1;
+  height: 50px;
+  width: 150px;
+  font-size: 30pt;
+  margin: 0 0 5px 30px;
+  padding: 5px 0 0 0;
+  text-indent: 10px;
+}
+.container .carContent .years select:focus {
+  outline: none;
+}
+.container .carContent .years select:hover {
+  cursor: pointer;
+}
+.container .carContent #end {
+  flex-grow: 0;
+  font-size: 30pt;
+}
+.container .carContent #end h1 {
+  color: #fff;
+  font-size: 30pt;
+  font-family: 'Kelly Slab', cursive;
+  font-size: 25pt;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  font-style: italic;
+}
+.container .carContent #engine nav .typeofFuel {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20pt;
+}
+.container .carContent #engine nav .typeofFuel fieldset {
+  margin: 0;
+  padding-top: 0;
+  border: none;
+  color: #ffffff;
+  line-height: 70px;
+}
+.container .carContent #engine nav .typeofFuel fieldset legend {
+  padding: 0;
+  font-size: 30pt;
+  font-family: 'Kelly Slab', cursive;
+  font-size: 25pt;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+  font-style: italic;
+}
+.container .carContent #engine nav .typeofFuel fieldset nav .fire1:hover,
+.container .carContent #engine nav .typeofFuel fieldset nav .fire2:hover {
+  text-shadow: 0 0 5px #fefcc9, 5px -5px 20px #feec85, -10px -10px 30px #ffae34, 10px -20px 40px #ec760c, -10px -30px 50px #cd4606, 0px -25px 20px #973716, 9px -7px 20px #451b0e;
+}
+.container .carContent #engine nav .typeofFuel fieldset nav input,
+.container .carContent #engine nav .typeofFuel fieldset nav label {
+  cursor: pointer;
+}
+.container .carContent #engine nav .typeofFuel .engineSize {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 20pt;
+  color: #fff;
+}
+.container .carContent #engine nav .typeofFuel .engineSize select {
+  order: 1;
+  height: 50px;
+  width: 150px;
+  font-size: 20pt;
+  margin: 0 0 5px 30px;
+  padding: 5px 0 0 0;
+  text-indent: 10px;
+}
+.container .carContent #engine nav .typeofFuel .engineSize select:focus {
+  outline: none;
+}
+.container .carContent #engine nav .typeofFuel .engineSize select:hover {
+  cursor: pointer;
+}
+@media (max-width: 1195px) {
+  .container .carContent .chosen {
+    min-width: 310px;
+    min-height: 1000px;
+    align-items: flex-start;
+  }
+  .container .carContent .chosen ul {
+    margin-top: 10px;
+  }
+  .container .carContent .chosen ul li {
+    display: block;
+    text-align: center;
+    width: inherit;
+  }
+  .container .carContent .chosen ul li:nth-child(even) {
+    height: 77px;
+    width: 157px;
+    margin: 40px 0 -10px 0;
+    background-color: transparent;
+    box-sizing: border-box;
+    border-top: none;
+    border-right: 4px solid #dc0001;
+  }
+  .container .carContent .chosen ul li:nth-child(odd)::after {
+    width: 100%;
+    left: -10px;
+  }
+  .container .carContent .chosen ul li h1 {
+    font-size: 12pt;
+  }
+  .container .carContent .car_container div div img {
+    margin: 0;
+  }
+  .container .carContent .car_container .bodies div div::after {
+    bottom: 15px;
+  }
+}
+.header-footer {
+  background-image: url('img/header/dark_texture.jpg');
+  height: 80px;
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMDAnIGhlaWdodD0nMzAwJz4KCTxkZWZzPgoJCTxsaW5lYXJHcmFkaWVudCBpZD0nZycgIHgyPScwJyB5Mj0nMTAwJSc+CgkJCTxzdG9wIG9mZnNldD0nMCUnIHN0eWxlPSdzdG9wLWNvbG9yOiMyZTJlMmU7c3RvcC1vcGFjaXR5OjEnIC8+CgkJCTxzdG9wIG9mZnNldD0nMTAwJScgc3R5bGU9J3N0b3AtY29sb3I6IzIyMjIyMjtzdG9wLW9wYWNpdHk6MScgLz4KCQk8L2xpbmVhckdyYWRpZW50PgoJCTxwYXR0ZXJuIGlkPSdiJyBwYXR0ZXJuVW5pdHM9J3VzZXJTcGFjZU9uVXNlJyB4PScwJyB5PScwJyB3aWR0aD0nMjAnIGhlaWdodD0nMTAnIHZpZXdCb3g9JzAgMCAyMCAxMCcgPgoJCQk8cmVjdCBmaWxsPSd1cmwoI2cpJyB4PSc5JyB5PSctNicgd2lkdGg9JzEyJyBoZWlnaHQ9JzEyJy8+CgkJCTxyZWN0IGZpbGw9J3VybCgjZyknIHg9JzknIHk9JzUnIHdpZHRoPScxMicgaGVpZ2h0PScxMCcvPgoJCQk8cmVjdCBmaWxsPSd1cmwoI2cpJyB3aWR0aD0nMTAnIGhlaWdodD0nMTAnLz4KCQk8L3BhdHRlcm4+IAoJCTxmaWx0ZXIgaWQ9J2Z1enonIHg9JzAnIHk9JzAnPgoJCQk8ZmVUdXJidWxlbmNlIHR5cGU9J3R1cmJ1bGVuY2UnIHJlc3VsdD0ndCcgYmFzZUZyZXF1ZW5jeT0nLjIgLjMnIG51bU9jdGF2ZXM9JzUnIHN0aXRjaFRpbGVzPSdzdGl0Y2gnLz4KCQkJPGZlQ29sb3JNYXRyaXggdHlwZT0nc2F0dXJhdGUnIGluPSd0JyB2YWx1ZXM9JzAnLz4KCQk8L2ZpbHRlcj4KCTwvZGVmcz4KCTxyZWN0IHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnIGZpbGw9J3VybCgjYiknLz4KPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsdGVyPSd1cmwoI2Z1enopJyBvcGFjaXR5PScwLjEnLz4KPC9zdmc+Cg==');
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-top: calc(104px);
+  width: 80%;
+}
+header {
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid #000;
+  z-index: 500;
+  background-image: url('img/header/dark_texture.jpg');
+  height: 80px;
+  width: 100%;
+}
+header .header {
+  display: flex;
+  margin: auto;
+  height: 100%;
+  width: 80%;
+}
+header .header section {
+  width: 100%;
+  display: flex;
+  flex-grow: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header section div {
+  display: flex;
+  align-items: center;
+  font-family: "BankGothic Md BT", sans-serif;
+  font-style: italic;
+}
+header .header section div a {
+  font-size: 40pt;
+}
+header .header section > div:first-child {
+  padding-left: 20px;
+  text-shadow: 5px 2px rgba(239, 0, 0, 0.59), 8px 3px rgba(0, 113, 239, 0.59);
+}
+header .header section > div:first-child:hover {
+  text-shadow: 0 0 5px #63fdfe, 0 1px 0 #999, 0 2px 0 #888, 0 3px 0 #777, 0 4px 0 #666, 0 5px 0 #555, 0 5.5px 0 #444, 0 6px 0 #333, 0 6.2px 7px #001135;
+}
+header .header section > div:first-child:active {
+  text-shadow: 0 1px 0 #999, 0 2px 0 #888, 0 3px 0 #777, 0 5px 7px #001135;
+  margin-top: 4px;
+}
+header .header .menu {
+  display: flex;
+  justify-content: space-around;
+  height: calc(50px);
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: calc(50%);
+  border-radius: 20px;
+  background: linear-gradient(0deg, #a1a1a1 0%, #a1a1a1 5%, #9c9c9c 10%, #ededed 47%, #9c9c9c 90%, #a1a1a1 95%, #a1a1a1 100%);
+  transform: skewX(-35deg);
+}
+header .header .menu div {
+  display: flex;
+  align-items: center;
+  transform: skewX(35deg);
+  height: calc(30px);
+  border-radius: 5px;
+}
+header .header .menu a {
+  display: block;
+  line-height: calc(30px);
+  font-size: 14pt;
+  color: black;
+  text-shadow: 1px 1px 0 #fff;
+}
+header .header .menu a:hover {
+  color: #de000d;
+  text-shadow: 0 1px 2px #000;
+}
+header .header a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+header .icon {
+  display: flex;
+  height: 100%;
+}
+header .icon div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: calc(72px);
+}
+header .icon div a {
+  height: calc(70px);
+  border-radius: calc(70px);
+}
+header .icon div a:hover {
+  border: solid 1px rgba(201, 0, 0, 0.58);
+  box-shadow: 0 0 15px rgba(0, 134, 219, 0.77);
+}
+footer {
+  border-top: 1px solid #000;
+  background-image: url('img/header/dark_texture.jpg');
+  height: 80px;
+  width: 100%;
+}
+footer .footer {
+  display: flex;
+  margin: auto;
+  height: 100%;
+  width: 80%;
+  color: #fff;
+  line-height: 80px;
+  font-family: "Segoe UI", serif;
+  font-size: 15pt;
+}
+footer .footer a {
+  margin-left: calc(40px);
+  color: #0086db;
+}
+footer .footer a:hover {
+  text-decoration: none;
+  color: #de000d;
+  text-shadow: 0 1px 2px #000;
+}
+@media (max-width: 320px) {
+  body header {
+    width: 320px;
+    height: calc(250px);
+  }
+  body header .header {
+    margin: 0;
+    width: 100%;
+    align-items: flex-start;
+  }
+  body header .header section div:first-child {
+    padding: 0;
+  }
+  body header .header section div a {
+    font-size: 25pt;
+  }
+  body header .header .icon div {
+    align-items: center;
+  }
+  body header .header .icon div a {
+    font-size: 30pt;
+  }
+  body header .header section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  body header .header section .menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: calc(10px);
+    margin-bottom: calc(10px);
+    height: calc(160px);
+    width: calc(240px);
+    transform: skewX(0deg);
+  }
+  body header .header section .menu div {
+    transform: skewX(0deg);
+  }
+  body header .header section .menu a {
+    text-align: center;
+    font-size: 20pt;
+    line-height: 22px;
+  }
+  body .container {
+    padding-top: calc(260px);
+    margin: 0;
+    width: 100%;
+  }
+  body footer .footer {
+    font-size: 12pt;
+  }
+}

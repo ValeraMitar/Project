@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PRO100BMW</title>
+    <link href="header_footer_body.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="my_car.js"></script>
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="icon">
+            <div><a href="index.html"><img src="svg_numbers/BMW_bigSize.svg" height="70px"
+                                           width="70px"></a>
+            </div>
+        </div>
+        <section>
+            <div><a href="index.html">PRO100 BMW</a></div>
+            <div class="menu">
+                <div><a href="index.html">Главная</a></div>
+                <div><a href="company_history.html">История компании</a></div>
+                <div><a href="engine.html">Двигатели</a></div>
+                <div><a href="my_car.html">Мой автомобиль</a></div>
+            </div>
+        </section>
+    </div>
+</header>
+<div class="container">
+    <div class="carContent">
+        <div class="chosen">
+            <ul>
+                <li data-title="Select series"><img class="series" data-id="series" src="my_car/icons/first_icon.svg"
+                                                    width="150px"></li>
+                <li></li>
+                <li data-title="Select body"><img class="bodyType" src="my_car/icons/second_icon.svg" width="150px">
+                </li>
+                <li></li>
+                <li class="selectYear" data-title="Select year"><img class="year" data-id="year"
+                                                                     src="my_car/icons/third_icon.svg"
+                                                                     width="150px">
+                </li>
+                <li></li>
+                <li class="selectLiters" data-title="Select engine"><img class="engine" data-id="engine"
+                                                                         src="my_car/icons/four_icon.svg"
+                                                                         width="150px">
+                </li>
+            </ul>
+        </div>
+        <div id="series" class="car_container visible">
+            <div>
+                <div><img data-class="series" data-id="oneSeries" src="my_car/series/number-one_whitefon.svg"></div>
+            </div>
+            <div>
+                <div><img data-class="series" data-id="twoSeries" src="my_car/series/black_fon.svg"></div>
+            </div>
+            <div>
+                <div><img data-class="series" data-id="threeSeries" src="my_car/series/number_three_white.svg"></div>
+            </div>
+            <div>
+                <div><img data-class="series" data-id="fourSeries" src="my_car/series/number_4_white.svg"></div>
+            </div>
+            <div>
+                <div><img data-class="series" data-id="fiveSeries" src="my_car/series/number_5_white.svg"></div>
+            </div>
+            <div>
+                <div><img data-class="series" data-id="sixSeries" src="my_car/series/six.svg"></div>
+            </div>
+            <div>
+                <div><img data-class="series" data-id="sevenSeries" src="svg_numbers/number-7.svg"></div>
+            </div>
+            <div>
+                <div><img data-class="series" data-id="x3Series" src="my_car/series/X3.jpg"></div>
+            </div>
+            <div>
+                <div><img data-class="series" data-id="x4Series" src="my_car/series/X4.jpg"></div>
+            </div>
+            <div>
+                <div><img data-class="series" data-id="x5Series" src="my_car/series/X5.jpg"></div>
+            </div>
+            <div>
+                <div><img data-class="series" data-id="x6Series" src="my_car/series/X6.jpg"></div>
+            </div>
+        </div>
+
+        <div id="bodyType" class="car_container">
+            <section id="oneSeries" class="bodies">
+                <div>
+                    <div data-title="E81"><img data-title="E81" data-class="bodyType"
+                                               src="my_car/series/1series/bmw_1_series_e81.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E82"><img data-title="E82" data-class="bodyType"
+                                               src="my_car/series/1series/bmw_1series_E82.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E87"><img data-title="E87" data-class="bodyType"
+                                               src="my_car/series/1series/bmw_1_series_e87.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E88"><img data-title="E88" data-class="bodyType"
+                                               src="my_car/series/1series/bmw_1series_e88.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F20"><img data-title="F20" data-class="bodyType"
+                                               src="my_car/series/1series/bmw_1_series_f20.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F21"><img data-title="F21" data-class="bodyType"
+                                               src="my_car/series/1series/bmw_1_series_f21.jpg">
+                    </div>
+                </div>
+            </section>
+            <section id="twoSeries" class="bodies">
+                <div>
+                    <div data-title="F22"><img data-title="F22" data-class="bodyType"
+                                               src="my_car/series/2series/bmw_2_series_f22.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F23"><img data-title="F23" data-class="bodyType"
+                                               src="my_car/series/2series/bmw_2_series_f23.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F45"><img data-title="F45" data-class="bodyType"
+                                               src="my_car/series/2series/bmw_2_Series_f45.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F46"><img data-title="F46" data-class="bodyType"
+                                               src="my_car/series/2series/bmw_2_Series_f46.jpg">
+                    </div>
+                </div>
+            </section>
+            <section id="threeSeries" class="bodies">
+                <div>
+                    <div data-title="E21"><img data-title="E21" data-class="bodyType"
+                                               src="my_car/series/3series/bmw_3_series_e21.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E30"><img data-title="E30" data-class="bodyType"
+                                               src="my_car/series/3series/bmw_3_series_e30.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E36"><img data-title="E36" data-class="bodyType"
+                                               src="my_car/series/3series/bmw_3_series_e36.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E46"><img data-title="E46" data-class="bodyType"
+                                               src="my_car/series/3series/bmw_3_series_e46.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E90"><img data-title="E90" data-class="bodyType"
+                                               src="my_car/series/3series/bmw_3_series_e90.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E91"><img data-title="E91" data-class="bodyType"
+                                               src="my_car/series/3series/bmw_3_series_e91.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E92"><img data-title="E92" data-class="bodyType"
+                                               src="my_car/series/3series/bmw_3_series_e92.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E93"><img data-title="E93" data-class="bodyType"
+                                               src="my_car/series/3series/bmw_3_series_e93.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F30"><img data-title="F30" data-class="bodyType"
+                                               src="my_car/series/3series/bmw_3_series_f30.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F31"><img data-title="F31" data-class="bodyType"
+                                               src="my_car/series/3series/bmw_3_series_f31.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F34"><img data-title="F34" data-class="bodyType"
+                                               src="my_car/series/3series/bmw_3_series_f34.jpg">
+                    </div>
+                </div>
+            </section>
+            <section id="fourSeries" class="bodies">
+                <div>
+                    <div data-title="F32"><img data-title="F32" data-class="bodyType"
+                                               src="my_car/series/4series/bmw_4_series_f32.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F33"><img data-title="F33" data-class="bodyType"
+                                               src="my_car/series/4series/bmw_4_series_f33.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F36"><img data-title="F36" data-class="bodyType"
+                                               src="my_car/series/4series/bmw_4_series_f36.jpg">
+                    </div>
+                </div>
+            </section>
+            <section id="fiveSeries" class="bodies">
+                <div>
+                    <div data-title="E12"><img data-title="E12" data-class="bodyType"
+                                               src="my_car/series/5series/bmw_5_series_e12.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E28"><img data-title="E28" data-class="bodyType"
+                                               src="my_car/series/5series/bmw_5_series_e28.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E34"><img data-title="E34" data-class="bodyType"
+                                               src="my_car/series/5series/bmw_5_series_e34.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E39"><img data-title="E39" data-class="bodyType"
+                                               src="my_car/series/5series/bmw_5_series_e39.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E60"><img data-title="E60" data-class="bodyType"
+                                               src="my_car/series/5series/bmw_5_series_e60.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E61"><img data-title="E61" data-class="bodyType"
+                                               src="my_car/series/5series/bmw_5_series_e61.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F07"><img data-title="F07" data-class="bodyType"
+                                               src="my_car/series/5series/bmw_5_series_f07.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F10"><img data-title="F10" data-class="bodyType"
+                                               src="my_car/series/5series/bmw_5_series_f10.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F11"><img data-title="F11" data-class="bodyType"
+                                               src="my_car/series/5series/bmw_5_series_f11.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="G30"><img data-title="G30" data-class="bodyType"
+                                               src="my_car/series/5series/bmw_5_series_g30.jpg">
+                    </div>
+                </div>
+            </section>
+            <section id="sixSeries" class="bodies">
+                <div>
+                    <div data-title="E24"><img data-title="E24" data-class="bodyType"
+                                               src="my_car/series/6series/bmw_6_series_e24.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E63"><img data-title="E63" data-class="bodyType"
+                                               src="my_car/series/6series/bmw_6_series_e63.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E64"><img data-title="E64" data-class="bodyType"
+                                               src="my_car/series/6series/bmw_6_series_e64.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F12"><img data-title="F12" data-class="bodyType"
+                                               src="my_car/series/6series/bmw_6_series_f12.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F13"><img data-title="F13" data-class="bodyType"
+                                               src="my_car/series/6series/bmw_6_series_f13.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F06"><img data-title="F06" data-class="bodyType"
+                                               src="my_car/series/6series/bmw_6_series_f06.jpg">
+                    </div>
+                </div>
+            </section>
+
+            <section id="sevenSeries" class="bodies">
+                <div>
+                    <div data-title="E23"><img data-title="E23" data-class="bodyType"
+                                               src="my_car/series/7series/bmw_7_series_e23.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E32"><img data-title="E32" data-class="bodyType"
+                                               src="my_car/series/7series/bmw_7_series_e32.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E38"><img data-title="E38" data-class="bodyType"
+                                               src="my_car/series/7series/bmw_7_series_e38.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E65"><img data-title="E65" data-class="bodyType"
+                                               src="my_car/series/7series/bmw_7_series_e63.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E66"><img data-title="E66" data-class="bodyType"
+                                               src="my_car/series/7series/bmw_7_series_e66.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F02"><img data-title="F02" data-class="bodyType"
+                                               src="my_car/series/7series/bmw_7_series_f02.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F01"><img data-title="F01" data-class="bodyType"
+                                               src="my_car/series/7series/bmw_7_series_f01.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F04"><img data-title="F04" data-class="bodyType"
+                                               src="my_car/series/7series/bmw_7_series_f04.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="G11"><img data-title="G11" data-class="bodyType"
+                                               src="my_car/series/7series/bmw_7_series_g11.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="G12"><img data-title="G12" data-class="bodyType"
+                                               src="my_car/series/7series/bmw_7_series_g12.jpg">
+                    </div>
+                </div>
+            </section>
+
+            <section id="x3Series" class="bodies">
+                <div>
+                    <div data-title="E83"><img data-title="E83" data-class="bodyType"
+                                               src="my_car/series/x3series/bmw_x3_series_e83.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E25"><img data-title="E25" data-class="bodyType"
+                                               src="my_car/series/x3series/bmw_x3_series_f25.jpg">
+                    </div>
+                </div>
+            </section>
+            <section id="x4Series" class="bodies">
+                <div>
+                    <div data-title="F26"><img data-title="F26" data-class="bodyType"
+                                               src="my_car/series/x4series/bmw_x4_series_f26.jpg">
+                    </div>
+                </div>
+            </section>
+            <section id="x5Series" class="bodies">
+                <div>
+                    <div data-title="E53"><img data-title="E53" data-class="bodyType"
+                                               src="my_car/series/x5series/bmw_x5_series_e53.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E70"><img data-title="E70" data-class="bodyType"
+                                               src="my_car/series/x5series/bmw_x5_series_e70.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F15"><img data-title="F15" data-class="bodyType"
+                                               src="my_car/series/x5series/bmw_x5_series_f15.jpg">
+                    </div>
+                </div>
+            </section>
+            <section id="x6Series" class="bodies">
+                <div>
+                    <div data-title="E71"><img data-title="E71" data-class="bodyType"
+                                               src="my_car/series/x6series/bmw_x6_series_e71.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="E72"><img data-title="E72" data-class="bodyType"
+                                               src="my_car/series/x6series/bmw_x6_series_e72.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div data-title="F16"><img data-title="F16" data-class="bodyType"
+                                               src="my_car/series/x6series/bmw_x6_series_f16.jpg">
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <div id="year" class="car_container">
+            <nav class="years">
+                <select name="year" id="someYears">
+                    <option></option>
+                </select>
+                <label for="someYears">Выберите год:</label>
+            </nav>
+        </div>
+        <div id="engine" class="car_container">
+            <nav>
+                <div class="typeofFuel">
+                    <fieldset>
+                        <legend>Тип двигателя</legend>
+                        <nav>
+                            <input id="benzineEngine" type="radio" name="engine" value="benzineEngine">
+                            <label class="fire1" for="benzineEngine">Benzine Engine</label>
+                        </nav>
+                        <nav>
+                            <input id="dieselEngine" type="radio" name="engine" value="dieselEngine">
+                            <label class="fire2" for="dieselEngine">Diesel Engine</label>
+                        </nav>
+                    </fieldset>
+                    <nav class="engineSize">
+                        <select name="liters" id="someLiters">
+                            <option></option>
+                            <option>1,6 л</option>
+                            <option>1,8 л</option>
+                            <option>1,9 л</option>
+                            <option>2,0 л</option>
+                            <option>2,2 л</option>
+                            <option>2,4 л</option>
+                            <option>2,5 л</option>
+                            <option>2,8 л</option>
+                            <option>3,0 л</option>
+                            <option>3,2 л</option>
+                            <option>3,3 л</option>
+                            <option>3,5 л</option>
+                            <option>3,6 л</option>
+                            <option>4,0 л</option>
+                            <option>4,4 л</option>
+                            <option>4,6 л</option>
+                            <option>4,8 л</option>
+                            <option>5,0 л</option>
+                            <option>5,4 л</option>
+                            <option>6,0 л</option>
+                        </select>
+                        <label for="someLiters">Выберите объем:</label>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+        <div id="end" class="car_container">
+            <h1>ГОТОВО!!!</h1>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer">
+        <span>Copyright &copy; 2017 </span>
+        <a href="https://www.facebook.com/profile.php?id=100014165654308" target="_blank" title="Автор очень старался!">Valera
+            Mitar</a>
+    </div>
+</footer>
+</body>
+</html>

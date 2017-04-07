@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Kelly+Slab&subset=cyrillic,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,300i,400,400i,500,500i,600,600i&subset=cyrillic');
+.container .startContent {
+  display: flex;
+  justify-content: center;
+}
+.container .startContent figure {
+  margin: 40px 40px 15px 40px;
+  width: 800px;
+  text-align: center;
+}
+.container .startContent figure img {
+  box-sizing: border-box;
+}
+.container .startContent figure img:hover {
+  outline: 1px solid #0085d7;
+  box-shadow: 0 1px 8px 5px rgba(0, 134, 219, 0.1), 0 4px 12px 5px rgba(0, 134, 219, 0.2);
+  cursor: url("img/cursor/zoom_in_32x32.png"), pointer;
+}
+.container .startContent figure figcaption {
+  color: #ffffff;
+  text-align: center;
+  font-size: 30pt;
+  font-family: 'Exo 2', sans-serif;
+  font-style: italic;
+}
+@media (max-width: 1195px) {
+  .container .startContent figure img {
+    width: 300px;
+  }
+  .container .startContent figure figcaption {
+    font-size: 18pt;
+  }
+}

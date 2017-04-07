@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&subset=cyrillic,latin-ext,vietnamese');
+.container {
+  padding-top: calc(104px);
+}
+.container .first_date,
+.container .second_date,
+.container .third_date,
+.container .four_date,
+.container .fifth_date {
+  display: flex;
+  flex-direction: row;
+}
+.container .first_date .text_content,
+.container .second_date .text_content,
+.container .third_date .text_content,
+.container .four_date .text_content,
+.container .fifth_date .text_content {
+  padding: calc(24px) 0 calc(24px) 25px;
+  font-family: "Oswald", serif;
+  font-size: 20pt;
+  font-weight: 500;
+  color: rgba(183, 183, 183, 0.73);
+  text-align: justify;
+  text-shadow: 1px 1px 0.5px #d4d4d4;
+  line-height: 35pt;
+}
+.container .first_date .text_content .date,
+.container .second_date .text_content .date,
+.container .third_date .text_content .date,
+.container .four_date .text_content .date,
+.container .fifth_date .text_content .date {
+  color: #fff;
+  display: inline;
+  margin: 0 0 0 -240px;
+}
+.container .first_date .text_content h1,
+.container .second_date .text_content h1,
+.container .third_date .text_content h1,
+.container .four_date .text_content h1,
+.container .fifth_date .text_content h1 {
+  margin: calc(56px);
+  color: #000;
+  text-shadow: 1px 1px 8px #9e7f2d;
+}
+.container .first_date .text_content figure,
+.container .second_date .text_content figure,
+.container .third_date .text_content figure,
+.container .four_date .text_content figure,
+.container .fifth_date .text_content figure {
+  margin: 40px 40px 15px 40px;
+  width: 300px;
+  float: right;
+  text-align: center;
+}
+.container .first_date .text_content figure img,
+.container .second_date .text_content figure img,
+.container .third_date .text_content figure img,
+.container .four_date .text_content figure img,
+.container .fifth_date .text_content figure img {
+  box-sizing: border-box;
+}
+.container .first_date .text_content figure img:hover,
+.container .second_date .text_content figure img:hover,
+.container .third_date .text_content figure img:hover,
+.container .four_date .text_content figure img:hover,
+.container .fifth_date .text_content figure img:hover {
+  outline: 1px solid #0085d7;
+  box-shadow: 0 1px 8px 5px rgba(0, 134, 219, 0.1), 0 4px 12px 5px rgba(0, 134, 219, 0.2);
+  cursor: url("img/cursor/zoom_in_32x32.png"), pointer;
+}
+.container .first_date .text_content figure figcaption,
+.container .second_date .text_content figure figcaption,
+.container .third_date .text_content figure figcaption,
+.container .four_date .text_content figure figcaption,
+.container .fifth_date .text_content figure figcaption {
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  font-family: serif;
+}
+.container .first_date .text_content div,
+.container .second_date .text_content div,
+.container .third_date .text_content div,
+.container .four_date .text_content div,
+.container .fifth_date .text_content div {
+  margin: 25px 0 25px 0;
+}
+.container .first_date .text_content div figure:nth-child(2n),
+.container .second_date .text_content div figure:nth-child(2n),
+.container .third_date .text_content div figure:nth-child(2n),
+.container .four_date .text_content div figure:nth-child(2n),
+.container .fifth_date .text_content div figure:nth-child(2n) {
+  float: left;
+}
+.container .first_date .text_content div p,
+.container .second_date .text_content div p,
+.container .third_date .text_content div p,
+.container .four_date .text_content div p,
+.container .fifth_date .text_content div p {
+  text-indent: 60pt;
+  margin: 10px;
+}
+.container .first_date .text_content .lastPhoto,
+.container .second_date .text_content .lastPhoto,
+.container .third_date .text_content .lastPhoto,
+.container .four_date .text_content .lastPhoto,
+.container .fifth_date .text_content .lastPhoto {
+  margin: auto;
+  width: 1000px;
+  float: none;
+}
+.container .first_date nav,
+.container .second_date nav,
+.container .third_date nav,
+.container .four_date nav,
+.container .fifth_date nav {
+  display: flex;
+  flex-direction: column;
+}
+.container .first_date nav .icon,
+.container .second_date nav .icon,
+.container .third_date nav .icon,
+.container .four_date nav .icon,
+.container .fifth_date nav .icon {
+  display: flex;
+  flex-shrink: 0;
+  flex-grow: 0;
+  height: calc(72px);
+  width: calc(72px);
+}
+.container .first_date nav .icon div,
+.container .second_date nav .icon div,
+.container .third_date nav .icon div,
+.container .four_date nav .icon div,
+.container .fifth_date nav .icon div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.container .first_date nav .icon div img,
+.container .second_date nav .icon div img,
+.container .third_date nav .icon div img,
+.container .four_date nav .icon div img,
+.container .fifth_date nav .icon div img {
+  border-radius: calc(70px);
+}
+.container .first_date nav .icon div img:hover,
+.container .second_date nav .icon div img:hover,
+.container .third_date nav .icon div img:hover,
+.container .four_date nav .icon div img:hover,
+.container .fifth_date nav .icon div img:hover {
+  border: solid 1px rgba(201, 0, 0, 0.58);
+  box-shadow: 0 0 15px rgba(0, 134, 219, 0.77);
+  cursor: url("img/cursor/zoom_in_32x32.png"), pointer;
+}
+.container .first_date nav > div:last-child,
+.container .second_date nav > div:last-child,
+.container .third_date nav > div:last-child,
+.container .four_date nav > div:last-child,
+.container .fifth_date nav > div:last-child {
+  width: calc(35px);
+  height: 100%;
+  margin: 10px 0 10px 0;
+  border-right: 3px solid #fff;
+}
+@media (max-width: 320px) {
+  .container .first_date .text_content,
+  .container .second_date .text_content,
+  .container .third_date .text_content,
+  .container .four_date .text_content,
+  .container .fifth_date .text_content {
+    font-size: 16pt;
+    line-height: 20pt;
+    padding-left: 5px;
+  }
+  .container .first_date .text_content div,
+  .container .second_date .text_content div,
+  .container .third_date .text_content div,
+  .container .four_date .text_content div,
+  .container .fifth_date .text_content div {
+    width: 243px;
+  }
+  .container .first_date .text_content div figure,
+  .container .second_date .text_content div figure,
+  .container .third_date .text_content div figure,
+  .container .four_date .text_content div figure,
+  .container .fifth_date .text_content div figure {
+    float: none;
+  }
+  .container .first_date .text_content figure,
+  .container .second_date .text_content figure,
+  .container .third_date .text_content figure,
+  .container .four_date .text_content figure,
+  .container .fifth_date .text_content figure {
+    float: none;
+    margin-right: 0;
+    margin-left: 0;
+    width: calc(200px);
+  }
+  .container .first_date .text_content figure img,
+  .container .second_date .text_content figure img,
+  .container .third_date .text_content figure img,
+  .container .four_date .text_content figure img,
+  .container .fifth_date .text_content figure img {
+    width: calc(200px);
+  }
+  .container .first_date .text_content .date,
+  .container .second_date .text_content .date,
+  .container .third_date .text_content .date,
+  .container .four_date .text_content .date,
+  .container .fifth_date .text_content .date {
+    margin: 0;
+  }
+  .container .first_date .text_content .lastPhoto,
+  .container .second_date .text_content .lastPhoto,
+  .container .third_date .text_content .lastPhoto,
+  .container .four_date .text_content .lastPhoto,
+  .container .fifth_date .text_content .lastPhoto {
+    width: 100%;
+    margin: 0;
+  }
+  .container .first_date .text_content .lastPhoto img,
+  .container .second_date .text_content .lastPhoto img,
+  .container .third_date .text_content .lastPhoto img,
+  .container .four_date .text_content .lastPhoto img,
+  .container .fifth_date .text_content .lastPhoto img {
+    width: calc(200px);
+  }
+}
